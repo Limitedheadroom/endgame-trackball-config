@@ -117,7 +117,7 @@
 		};
 	};
 
-<<<<<<< HEAD
+
 	behaviors {
 		cdch: click-double-click-hold {
 			compatible = "zmk,behavior-hold-tap";
@@ -137,8 +137,6 @@
 		};
 	};
 
-=======
->>>>>>> upstream/main
 	trackball {
 		input-processors = <&zip_scroll_scaler TWIST_MULTIPLIER TWIST_DIVISOR>,
 						   <&zip_pointer_accel>, <&zip_scroll_accel>,
