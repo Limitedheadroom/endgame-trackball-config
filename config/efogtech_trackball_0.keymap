@@ -32,7 +32,7 @@
 			DECLARE_ENCODERS;
 			bindings = <
 				// buttons
-				&ltmkp LAYER_SNIPE ENTER  &ltmkp LAYER_SCROLL ESC
+				&ltmkp LAYER_SNIPE ENTER  &ltmkp LAYER_SCROLL TAB
 				&mkp MCLK                 &cdch LAYER_SCROLL 0
 				&mkp LCLK                 &mkp RCLK
 				&ltm LAYER_EXTRAS MB4     &ltm LAYER_DEVICE MB5
@@ -47,10 +47,10 @@
 			display-name = "Extras";
 			DECLARE_ENCODERS;
 			bindings = <
-				&kp LC(C)      &kp LC(V)
-				&kp LC(X)      &kp LC(Z)
-				&kp LC(Z)      &kp LC(C)
-				&trans         &kp LC(V)
+				&kp LG(C)      &kp LG(A)
+				&kp LG(X)      &kp LG(V)
+				&kp LG(Z)      &kp LG(LS(Z))
+				&trans         &kp LG(V)
 
 				&kp C_VOL_UP   &kp LC(TAB)
 				&kp C_VOL_DN   &kp LC(LS(TAB))
@@ -129,7 +129,7 @@
 			display-name = "Copy/paste (click/double-click)";
 			#binding-cells = <0>;
 			tapping-term-ms = <300>;
-			bindings = <&kp LC(C)>, <&kp LC(V)>;
+			bindings = <&kp LG(C)>, <&kp LG(V)>;
 		};
 	};
 
