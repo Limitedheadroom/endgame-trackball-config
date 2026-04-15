@@ -50,7 +50,7 @@
 			DECLARE_ENCODERS;
 			bindings = <
 
-				&kp LG(C)      &kp LG(A)
+				&kp LG(A)      &kp LG(C)
 				&kp LG(X)      &kp LG(V)
 				&kp LG(Z)      &kp LG(LS(Z))
 				&trans         &kp LG(V)
@@ -125,7 +125,7 @@
 			#binding-cells = <2>;
 			flavor = "tap-preferred";
 			tapping-term-ms = <325>;
-			bindings = <&mo>, <&cdc>;
+			bindings = <&ltmkp>, <&cdc>;
 		};
 
 		cdc: click-double-click {
