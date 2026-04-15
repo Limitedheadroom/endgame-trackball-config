@@ -125,7 +125,7 @@
 			#binding-cells = <2>;
 			flavor = "tap-preferred";
 			tapping-term-ms = <325>;
-			bindings = <&ltmkp>, <&cdc>;
+			bindings = <&mo>, <&cdc>;
 		};
 
 		cdc: click-double-click {
