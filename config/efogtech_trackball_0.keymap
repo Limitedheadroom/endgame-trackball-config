@@ -52,8 +52,8 @@
 				&kp LG(Z)      &kp LG(LS(Z))
 				&trans         &kp LG(V)
 
-				&kp C_VOL_UP   &kp LC(TAB)
-				&kp C_VOL_DN   &kp LC(LS(TAB))
+				&kp C_VOL_UP   &kp LG(TAB)
+				&kp C_VOL_DN   &kp LG(LS(TAB))
 			>;
 		};
 
